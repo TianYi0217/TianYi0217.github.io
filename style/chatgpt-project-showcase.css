@@ -7,41 +7,6 @@ body {
     padding: 0;
   }
   
-  nav {
-    background-color: #c3d9ff;
-    color: #fff;
-    margin-top: 10px; 
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  nav a:link, nav a:visited {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  h1, h2 {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  p {
-    padding: 0 20px;
-  }
-  
   a:link {
     color: #007bff;
   }
@@ -62,7 +27,7 @@ body {
   table {
     border-collapse: collapse;
     width: 80%;
-    margin: 20px auto;
+    margin: 40px auto;
   }
   
   th, td {
@@ -83,25 +48,11 @@ body {
   tr:nth-child(odd) {
     background-color: #ffffff;
   }
-  
-  header {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    overflow: hidden;
-  }
-  
+    
   section {
     padding: 20px;
   }
 
-  header {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-  }
   header {
     background-color: #4a89dc;
     color: #fff;
@@ -157,22 +108,38 @@ body {
     padding: 0 60px;
   }
   
-  table {
-    margin: 40px auto;
-  }
 
   img {
     display: block;
     margin: 40px auto;
   }
-  
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #fff; /* 添加背景颜色以使其与导航栏颜色不同 */
-    padding: 20px; /* 添加padding以使其与导航栏分开 */
+
+
+  #chatgpt-extensions td:first-child {
+    background-color: rgba(178, 178, 224, 0.271);
+    color: white;
   }
+
+  #chatgpt-extensions td:last-child {
+    background-color: rgba(152, 235, 152, 0.455);
+    color: white;
+  }
+
+  #chatgpt-extensions th {
+    background-color: rgba(255, 255, 0, 0.293);
+    color: black;
+  }
+
+  #chatgpt-extensions th:first-child {
+    background-color: rgba(15, 102, 233, 0.293);
+    color: black;
+  }
+
+  #chatgpt-extensions th:last-child {
+    background-color: rgba(15, 233, 55, 0.662);
+    color: black;
+  }
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
