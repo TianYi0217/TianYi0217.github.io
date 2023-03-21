@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content-wrapper {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #a5c5d8; /* 背景颜色 */
+      border: 2px solid #333; /* 外边框 */
+        }
+        *{
+        text-align: center;
+        }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* 设置表单元素之间的间距和对齐方式 */
+form > * {
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+/* 设置文本输入框和日期选择器的样式 */
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+/* 设置单选框和标签之间的间距 */
+label {
+  margin-right: 20px;
+}
+
+/* 鼠标悬停在标签上时更改样式 */
+label:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+/* 选中标签时更改样式 */
+input[type="radio"]:checked + label {
+  font-weight: bold;
+  color: green;
+}
+
+/* 设置提交按钮的样式 */
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+/* 鼠标悬停在提交按钮上时更改样式 */
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: darkblue;
+}
+
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+    <br>
+    <br>
+    <br>
+Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="enter your name" name="name" required >   
+<br>
+<br>
+Student ID:<input type="text" placeholder="enter your student ID" name="studentID" required>
+<br>
+<br>
+<p>请选择预约时间</p>
+<label for="date">请选择一个日期：</label>
+<input type="date" id="date" name="date">
+<br>
+<br>
+<br>
+<label>请选择时间段：</label><br>
+<br>
+<input type="radio" id="time1" name="time" value="13:00-14:30">
+<label for="time1">下午1:00-2:30</label><br>
+<br>
+<input type="radio" id="time2" name="time" value="14:30-16:00">
+<label for="time2">下午2:30-4:00</label><br>
+<br>
+<input type="radio" id="time3" name="time" value="16:00-18:30">
+<label for="time3">下午4:00-6:30</label><br>
+<br>
+<input type="radio" id="time26" name="time" value="18:30-20:30">
+<label for="time26">下午6:30-8:30</label><br>
+<br>
+<br>
+<input type="submit" value="Submit">
+</div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html> -->
