@@ -1,0 +1,297 @@
+/*** uncss> filename: D:/Others/mzy好好学习/3500 finalproject/wenzhou-3/css/food1.css ***/
+
+/* reset */
+html, body, div, h3, p, a, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* start editing from here */
+a {
+	text-decoration: none;
+}
+
+/* text align right */
+/* text align left */
+/* text align center */
+/* float right */
+/* float left */
+.clear {
+	clear: both;
+}
+
+/* clear float */
+/* Position Relative */
+/* Position Absolute */
+/* vertical align baseline */
+/* vertical align top */
+/* vertical menu */
+/* horizontal menu */
+img {
+	max-width: 100%;
+}
+
+/*end reset*/
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*----start-header-----*/
+.header {
+	background: #012231;
+}
+
+.logo {
+	float: left;
+	padding: 27px 0 0 0;
+}
+
+.top-nav {
+	float: right;
+}
+
+.top-nav ul li {
+	display: inline-block;
+	float: left;
+}
+
+.top-nav ul li a {
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	padding: 40px 25px;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	font-size: 0.875em;
+}
+
+.top-nav li.active>a, .top-nav li>a:hover {
+	background: #289cd8;
+	color: #FFF;
+}
+
+/*---start-content----*/
+/*-----specials-heading----*/
+/*----special-grid------*/
+/*----start-testmonial-grid----*/
+/*---start-footer-----*/
+/*---start-copy-right-----*/
+/*---about-us----*/
+/*---start-services----*/
+/*---plans-404page-----*/
+/*---start-contact----*/
+/*  Contact Form  ============================================================================= */
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+	.wrap {
+		width: 95%;
+	}
+}
+
+/*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
+
+@media only screen and (max-width: 800px) {
+	.wrap {
+		width: 95%;
+	}
+}
+
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+	.wrap {
+		width: 95%;
+	}
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.wrap {
+		width: 95%;
+	}
+}
+
+/*-----responsive-design-----*/
+@media only screen and (max-width: 1366px) and (min-width: 1280px) {
+	.wrap {
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+	.wrap {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.wrap {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 640px) {
+	.wrap {
+		width: 90%;
+	}
+
+	.top-nav ul li a {
+		padding: 40px 19px;
+	}
+}
+
+/*** uncss> filename: D:/Others/mzy好好学习/3500 finalproject/wenzhou-3/css/responsiveslides.css ***/
+
+
+/* Banner Styles */
+#banner {
+	background: url(banner.jpg) no-repeat center center/cover;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.banner-content {
+	/* make it center in page*/
+	/* please */
+	max-width: 600px;
+
+
+	color: #ffffff;
+	text-align: center;
+}
+
+.banner-content h1 {
+	font-size: 56px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.banner-content p {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.btn {
+	padding: 10px 20px;
+	background: #e48825;
+	color: #bce59e;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	background: #5c26da;
+}
+
+/* About Section Styles */
+#about {
+	padding: 40px 0;
+	background: #f9f9f9;
+}
+
+.about-content {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.about-content h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.about-content p {
+	font-size: 18px;
+}
+
+/* Menu Section Styles */
+#menu {
+	padding: 40px 0;
+}
+
+.menu-content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.menu-item {
+	width: 300px;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+.menu-item img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+/* Footer Styles */
+footer {
+	background: #111111;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+	.banner-content h1 {
+		font-size: 36px;
+	}
+
+	.banner-content p {
+		font-size: 18px;
+	}
+
+	.about-content h2 {
+		font-size: 24px;
+	}
+
+	.about-content p {
+		font-size: 16px;
+	}
+
+	.menu-item {
+		width: 100%;
+	}
+}
+
+.manyfood h3, .manyfood p {
+	color: white;
+}
+
+.header {
+	background: #012231;
+}
+
+body {
+	/* RGB 1,34,49 */
+	background: #012231;
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+}

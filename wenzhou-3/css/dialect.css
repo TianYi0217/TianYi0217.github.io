@@ -1,0 +1,218 @@
+/* reset */
+html, body, div, h3, h5, p, a, img, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* start editing from here */
+a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*end reset*/
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*----start-header-----*/
+.header {
+	background: #012231;
+}
+
+.logo {
+	float: left;
+	padding: 27px 0 0 0;
+}
+
+.top-nav {
+	float: right;
+}
+
+.top-nav ul li {
+	display: inline-block;
+	float: left;
+}
+
+.top-nav ul li a {
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	padding: 40px 25px;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	font-size: 0.875em;
+}
+
+.top-nav li.active>a, .top-nav li>a:hover {
+	background: #289cd8;
+	color: #FFF;
+}
+
+/*---start-content----*/
+.content {
+	background: url(../images/content-bg.png);
+}
+
+/*-----specials-heading----*/
+.specials-heading h5 {
+	float: left;
+	width: 33%;
+	height: 1px;
+	background: #D1D1D1;
+	margin: 24px 0px 0px 0px;
+}
+
+.specials-heading h3 {
+	float: left;
+	width: 34%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	color: #012231;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.specials-heading {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*----special-grid------*/
+.special-grid {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	text-align: center;
+}
+
+.special-grid img {
+	width: 100%;
+}
+
+.special-grid a {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #555;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	padding: 0.3em 0;
+	display: block;
+}
+
+.special-grid a:hover {
+	color: #289cd8;
+}
+
+.special-grid p {
+	font-size: 0.875em;
+	color: rgba(148, 145, 145, 0.84);
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0em 1em 1em 1em;
+	line-height: 1.5em;
+}
+
+.spe-grid {
+	margin: 0px;
+}
+
+.specials-grids {
+	padding: 60px 0;
+}
+
+/*----start-testmonial-grid----*/
+.testmonial-grid {
+	text-align: center;
+}
+
+.testmonial-grid h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	color: #012231;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0.5em 0 0.5em 0;
+}
+
+/*---about-us----*/
+.about-us {
+	padding: 50px 0;
+}
+
+.about-header h5 {
+	float: left;
+	width: 30%;
+	height: 1px;
+	background: #D1D1D1;
+	margin: 24px 0px 0px 0px;
+}
+
+.about-header h3 {
+	float: left;
+	width: 34%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+	color: #012231;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about-header {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.about-info p {
+	font-size: 0.875em;
+	color: rgba(85, 81, 81, 0.84);
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.8em;
+}
+
+#video-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 60vh;
+	margin-top: 77px;
+}
+
+#video {
+	width: 650px;
+}
+
+.copy-right {
+	text-align: center;
+	padding: 1em;
+	background: #000;
+}
+
+.copy-right p {
+	font-size: 1.4em;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', sans-serif;
+}

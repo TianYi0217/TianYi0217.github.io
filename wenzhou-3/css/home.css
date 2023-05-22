@@ -1,0 +1,355 @@
+/* reset */
+html, body, div, span, h3, p, a, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* start editing from here */
+a {
+	text-decoration: none;
+}
+
+/* text align right */
+/* text align left */
+/* text align center */
+/* float right */
+/* float left */
+.clear {
+	clear: both;
+}
+
+/* clear float */
+/* Position Relative */
+/* Position Absolute */
+/* vertical align baseline */
+/* vertical align top */
+/* vertical menu */
+/* horizontal menu */
+img {
+	max-width: 100%;
+}
+
+/*end reset*/
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*----start-header-----*/
+.header {
+	background: #012231;
+}
+
+.logo {
+	float: left;
+	padding: 27px 0 0 0;
+}
+
+.top-nav {
+	float: right;
+}
+
+.top-nav ul li {
+	display: inline-block;
+	float: left;
+}
+
+.top-nav ul li a {
+	font-family: 'Roboto', sans-serif;
+	color: #d6d6d6;
+	padding: 40px 25px;
+	display: block;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+	font-size: 0.875em;
+}
+
+.top-nav li.active>a, .top-nav li>a:hover {
+	background: #289cd8;
+	color: #FFF;
+}
+
+/*---start-content----*/
+.content {
+	background: url(../images/content-bg.png);
+}
+
+.content-grids {
+	padding: 60px 0;
+}
+
+.grid {
+	float: left;
+	width: 29%;
+	box-shadow: 2px 3px 3px #ccc;
+	background: #fff;
+	border: 1px solid #d5d5d5;
+	padding: 19px 18px 25px;
+	color: #7e7e7e;
+	text-align: center;
+	margin-right: 2%;
+}
+
+.grid h3 {
+	text-transform: uppercase;
+	padding: 8px 0;
+	margin-bottom: 8px;
+	font-size: 1.6em;
+	color: #289cd8;
+	border-bottom: 1px solid #dedede;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.grid p {
+	font-size: 0.875em;
+	color: rgba(148, 145, 145, 0.84);
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0em 1em 1em 1em;
+	line-height: 1.5em;
+}
+
+.last-grid {
+	margin: 0px;
+}
+
+/*-----specials-heading----*/
+/*----special-grid------*/
+/*----start-testmonial-grid----*/
+/*---start-footer-----*/
+/*---start-copy-right-----*/
+.copy-right {
+	text-align: center;
+	padding: 1em;
+	background: #000;
+}
+
+.copy-right p {
+	font-size: 1.4em;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*---about-us----*/
+/*---start-services----*/
+/*---plans-404page-----*/
+/*---start-contact----*/
+/*  Contact Form  ============================================================================= */
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+	.wrap {
+		width: 95%;
+	}
+}
+
+/*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
+
+@media only screen and (max-width: 800px) {
+	.wrap {
+		width: 95%;
+	}
+}
+
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+	.wrap {
+		width: 95%;
+	}
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.wrap {
+		width: 95%;
+	}
+}
+
+/*-----responsive-design-----*/
+@media only screen and (max-width: 1366px) and (min-width: 1280px) {
+	.wrap {
+		width: 90%;
+	}
+
+	.slider-info {
+		left: 15%;
+	}
+
+	.grid {
+		width: 28.8%;
+	}
+
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+	.wrap {
+		width: 90%;
+	}
+
+	.slider-info {
+		left: 15%;
+	}
+
+	.grid {
+		width: 28.6%;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.wrap {
+		width: 90%;
+	}
+
+	.slider-info {
+		left: 15%;
+	}
+
+	.grid {
+		width: 27.6%;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 640px) {
+	.wrap {
+		width: 90%;
+	}
+
+	.slider-info {
+		left: 15%;
+	}
+
+	.grid {
+		width: 26.3%;
+	}
+
+	.top-nav ul li a {
+		padding: 40px 19px;
+	}
+}
+
+/*** uncss> filename: D:/Others/mzy好好学习/3500 finalproject/wenzhou-3/css/responsiveslides.css ***/
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	border: 0;
+	width: 100%;
+}
+
+.slider-info {
+	position: absolute;
+	top: 173px;
+	left: 18%;
+	text-align: center;
+	-webkit-transition: background 0.2s ease;
+	-moz-transition: background 0.2s ease;
+	-o-transition: background 0.2s ease;
+	-ms-transition: background 0.2s ease;
+	transition: background 0.2s ease;
+	border-radius: 0.3em;
+}
+
+.slider-info p {
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+.slider-info span {
+	font-family: 'Roboto', sans-serif;
+	width: 58%;
+	color: #ffffff;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	display: block;
+	left: 20%;
+	position: absolute;
+	-webkit-transition: background 0.2s ease;
+	-moz-transition: background 0.2s ease;
+	-o-transition: background 0.2s ease;
+	-ms-transition: background 0.2s ease;
+	transition: background 0.2s ease;
+}
+
+.image-slider img {
+	width: 100%;
+	height: 400px;
+	/* 设置为相同的高度 */
+	object-fit: cover;
+	/* 使用裁剪来保持纵横比 */
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1280px) {
+	.slider-info {
+		left: 15%;
+	}
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+	.slider-info {
+		left: 11%;
+		top: 137px;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.slider-info {
+		top: 82px;
+		left: 2%;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.slider-info {
+		top: 48px;
+		left: 6%;
+	}
+
+	.slider-info p {
+		font-size: 2em;
+	}
+
+	.slider-info span {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+}
