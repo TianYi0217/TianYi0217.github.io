@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>信息处理页面</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <textarea id="pasteArea" rows="5" cols="100" placeholder="在这里粘贴文本..."></textarea>
+    <button id="processButton">处理文本</button>
+
+    <div id="outputArea">
+        <!-- 解析后的文本和按钮将在这里显示 -->
+    </div>
+
+    <div>
+        <input type="text" id="linkInput" placeholder="输入京东分享链接...">
+        <button id="convertButton">转换</button>
+    </div>
+    
+    <div id="convertedLinkArea">
+        <!-- 转换后的链接将在这里显示 -->
+        <input type="text" id="convertedLink" readonly>
+        <button id="copyLinkButton">复制链接</button>
+    </div>
+</body>
+</html>
