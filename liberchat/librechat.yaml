@@ -4,16 +4,14 @@ cache: true
 
 endpoints:
   custom:
-    - name: "xai"
-      apiKey: "${XAI_API_KEY}"
-      baseURL: "https://api.gpt.ge/v1/chat/completions"
+    - name: "v3"
+      apiKey: "${V3_API_KEY}"
+      baseURL: "https://api.gpt.ge/v1"
       models:
         default: ["gpt-4o"]
         fetch: true
-      titleConvo: true
       titleMethod: "completion"
       titleModel: "gpt-4o-mini"
       summarize: false
       summaryModel: "gpt-4o-mini"
       forcePrompt: false
-      modelDisplayLabel: "Grok"
