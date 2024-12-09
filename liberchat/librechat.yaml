@@ -4,15 +4,15 @@ cache: true
 
 endpoints:
   custom:
-    - name: "VVEAI"
+    - name: "CC"
       apiKey: "${VVEAI_API_KEY}"  # 请将此处替换为您的实际 API 密钥
       baseURL: "https://api.vveai.com/v1"
       models:
         default: ['gpt-4o']
         fetch: true
       titleConvo: true
-      titleModel: "current_model"
+      titleModel: "gpt-3.5-turbo"
       summarize: false
-      summaryModel: "current_model"
+      summaryModel: "gpt-3.5-turbo-16k"
       forcePrompt: false
-      modelDisplayLabel: "VVEAI"
+      modelDisplayLabel: "LLM"
